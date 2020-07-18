@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Portfolio - People</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style_people.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    
+    <script>document.body.className += ' fade-out';</script>
+
+    <!-- Start Home Section -->
+    <div id="home">
+
+        <!-- Start Landing -->
+        <div class="landing" data-slides='[
+		"images/landing_page/landing-people (1).jpg",
+		"images/landing_page/landing-people (2).jpg",
+		"images/landing_page/landing-people (3).jpg",
+		"images/landing_page/landing-people (4).jpg",
+		"images/landing_page/landing-people (5).jpg"
+	    ]'>
+            
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark flex-column">
+                <a class="navbar-brand ml-auto mr-auto" href="index.html"><img src="images/logo/logo_transparent1.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="landscapes.html">Landscapes</a>
+                                <a class="dropdown-item" href="cities.html">Cities</a>
+                                <a class="dropdown-item" href="people.html">People</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- End Navigation -->
+        
+            <div class="landing-col-wrapper">
+                <div class="container landing-col-parent">
+                    <div class="row landing-col-child">
+                        <div class="col-sm-4 col-md-4 col-lg-4 landing-col">
+                            <h4>Get in Touch</h4>
+                            <p>Book in a free consultation for whatever you need need</p>
+                            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">Subscribe</button>
+                        </div>
+
+                        <div class="col-sm-4 col-md-4 col-lg-4 landing-col">
+                            <h4>Welcome to<br>Head Photography</h4>
+                            <p>Browse my latest shots</p>
+                            <a href="#portfolio"><i class="fas fa-chevron-down animation-target"></i></a>
+                        </div>
+    
+                        <div class="col-sm-4 col-md-4 col-lg-4 landing-col">
+                            <h4>Follow Me</h4>
+                            <p>Check out my additional content on my social media handles</p>
+                            <button type="button" class="btn btn-outline-primary social-btn" onclick="showArrow()">Follow Me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="landing-footer">
+                    <div class="arrow-wrapper">
+                        <img src="images/arrow.png" class="img-fluid arrow" alt="Responsive image">
+                    </div>
+                
+                    <div class="social-media">
+                        <a class="fab" href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a class="fab" href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a class="fab" href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a class="fab" href="https://www.pinterest.com"><i class="fab fa-pinterest fa-2x"></i></a>
+                        <a class="fab" href="https://www.gmail.com"><i class="fas fab fa-envelope fa-2x"></i></a>
+                    </div>
+    
+                    <div class="copyright">
+                        <p class="copyright">&copy; Head Photography. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Landing -->
+
+    </div>
+    <!-- End Home Section -->
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog .modal-dialog-centered modal-xl modal-lg modal-md modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <img class="d-block w-100" src="" alt="First slide">
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- End Modal Content -->
+        </div>
+    </div>
+    <!-- End Modal -->
+    
+    <!-- Start Portfolio Section -->
+    <div class="all-carousel-wrapper" data-aos="fade-in" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out"
+    data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
+        <div class="container portfolio-col-heading">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2>Explore my shots from the amazing people I have been lucky enough to meet during my many journeys</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <div class="row">
+
+                <div class="heading-wrapper">
+                    <h1 class="sub-heading">Couples &</h1>
+                    <h1 class="primary-heading">Weddings</h1>
+                </div>
+                
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (1).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (2).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (3).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (4).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (5).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (6).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100"src="images/people/weddings (7).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (8).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (9).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (10).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (11).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/weddings (12).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <div class="row">
+
+                <div class="heading-wrapper">
+                    <h1 class="sub-heading">Candids &</h1>
+                    <h1 class="primary-heading">Portraits</h1>
+                </div>
+                
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (1).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (2).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (3).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (4).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (5).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (6).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (7).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (8).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (9).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (10).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (11).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/portraits (12).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <div class="row">
+
+                <div class="heading-wrapper">
+                    <h1 class="sub-heading">Functions &</h1>
+                    <h1 class="primary-heading">Events</h1>
+                </div>
+                
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (1).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (2).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (3).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (4).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (5).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (6).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (7).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (8).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (9).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (10).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (11).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <a type="button" data-toggle="modal" data-target="#myModal"><img class="d-block w-100" src="images/people/events (12).png" alt="First slide" onclick="myFunction(this)"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Section -->
+
+    <!-- Start Footer Section -->
+    <footer>
+        <a href="https://www.facebook.com"><i class="footer-social fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="footer-social fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com"><i class="footer-social fab fa-twitter"></i></a>
+        <a href="https://www.pinterest.com"><i class="footer-social fab fa-pinterest"></i></a>
+        <a href="mailto:hello@headphotography.co.nz?subject=I Have A Question&body=Hello Reuben"><i class="footer-social fas fab fa-envelope"></i></a>
+
+        <p><a href="terms-of-service.html">Terms of Service</a> | <a href="faq.html">FAQ</a></p>
+        <p>&copy; Head Photography. All rights reserved.</p>
+    </footer>
+    <!-- End Footer Section -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e9990fe573.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
