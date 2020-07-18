@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html {
+    background: #222222;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #222222;
+    font-family: 'Julius Sans One', sans-serif;
+    overflow-x: hidden;
+    color: #fff;
+    opacity: 1;
+    transition: 8s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+/*** Home Section ***/
+
+/*** Navigation ***/
+
+.navbar {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    background-color: rgba(0, 0, 0, 0)!important;
+    z-index: 99;
+}
+
+.navbar-brand {
+    padding-top: 12rem;
+}
+
+.navbar-brand img {
+    height: 8rem;
+    transition: transform 1.5s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.2);
+}
+
+.navbar-toggler {
+    margin-top: 1.5rem;
+}
+
+.navbar-nav li {
+    color: #fff;
+    padding-top: 1.5rem;
+    margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    letter-spacing: 0.2rem;
+    padding-bottom: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    top: 80px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:focus.active {
+    color: #222222;
+    background-color: #fff!important;
+    box-shadow: none!important;
+}
+
+/*** End Navigation ***/
+
+/*** Landing ***/
+
+.landing {
+    width: 100%;
+    z-index: -1;
+    background-color: #222222;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+/*** End Landing ***/
+
+/*** End Home Section ***/
+
+/*** Content Section ***/
+
+.intro {
+	text-align: center;
+	width: 50%;
+    margin: auto;
+    margin-top: 12rem;
+	margin-bottom: 6rem;
+}
+
+.intro h3 {
+    font-size: 2rem;
+}
+
+.intro h4 {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.intro p {
+    font-size: 0.7rem;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.intro .first-para {
+    text-align: center;
+}
+
+/*** End Content Section ***/
+
+/*** Footer ***/
+
+footer {
+    text-align: center;
+    width: 100vw;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+footer p:not(:last-child) {
+    padding-bottom: 0.5rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: inline-block;
+    color: #fff;
+    transition: transform(0.3s);
+    padding-bottom: 1rem;
+}
+
+.footer-social:hover {
+    display: inline-block;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+}
+
+/*** End Footer ***/
+
+/*** Media Queries ***/
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        padding-top: 6rem;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .navbar-brand {
+        width: 80vw;
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    .navbar-brand img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .social-media, .copyright {
+        font-size: 0.6rem;
+    }
+
+    .fab {
+        padding-bottom: 0.2rem;
+    }
+
+    .nav-link a, .nav-link {
+        padding-bottom: 0!important;
+        padding-top: 0!important;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .social-media, .copyright {
+        font-size: 0.4rem;
+    }
+
+    .fab {
+        padding-bottom: 0.1rem;
+    }
+}
+
+/*** End Media Queries ***/
